@@ -122,7 +122,7 @@ export default function ServicesSection() {
                   viewport={{ once: true, amount: 0.3 }}
                   transition={{
                     duration: 0.7,
-                    delay: 3.2 + (index * 0.35), // Lowered delay for faster appearance
+                    delay: 3 + (index * 0.35), // Lowered delay for faster appearance
                     ease: "easeOut",
                   }}
                   whileHover={{ scale: 1.04 }}
