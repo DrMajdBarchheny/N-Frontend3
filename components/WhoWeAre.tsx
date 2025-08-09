@@ -197,7 +197,7 @@ export default function WhoWeAre() {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{
                   duration: 0.9,
-                  delay: 3.2 + (idx * 0.35), // Lowered delay for faster appearance
+                  delay: 3 + (idx * 0.35), // Lowered delay for faster appearance
                   ease: "easeOut",
                 }}
                 whileHover={{ scale: 1.04 }}
